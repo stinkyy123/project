@@ -1,0 +1,215 @@
+body {
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+.MID-SECTION,
+.BOTTOM-CONTAINER {
+    background-color: white
+}
+.BOTTOM-CONTAINER,
+.MID-BOTOM-CONTAINER
+ {
+    display:flex;
+    width: 100%;
+    height: 400px;
+}
+.TOP-CONTAINER {
+    background-color: #1F2937;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+   
+}
+.MID-BOTOM-CONTAINER {
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-1 {
+    
+    font-size: 24px;
+    font-weight: bolder;
+    color:#f9faf8;
+    font-family: 'Lumanosimo', cursive;
+font-family: 'Roboto', sans-serif;
+}
+.HEADER-RIGHT,
+.HEADER-LEFT {
+    display: flex;
+    
+    
+}
+.TOP-CONTAINER  ul{
+    display: flex;
+   
+    
+}
+a {
+    
+    text-decoration: none; 
+}
+ul {
+        
+    list-style: none;
+    gap: 16PX;
+        
+ }
+ .header-4,
+ .header-2,
+ .header-3 {
+ font-size: 14px;
+ color: grey;
+ font-family: 'Lumanosimo', cursive;
+font-family: 'Roboto', sans-serif;
+ }
+ .MID-SECTION {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+ }
+ .HERO-TEXT {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #f9faf8;
+    font-family: 'Lumanosimo', cursive;
+font-family: 'Roboto', sans-serif;
+padding-bottom: 20px;
+ }
+ .LEFT-SIDE {
+    width: 350px;
+    
+   
+ }
+ .HERO-TEXT-1 {
+    padding-bottom: 20px;
+    font-size: 14px;
+ color: grey;
+ font-family: 'Lumanosimo', cursive;
+font-family: 'Roboto', sans-serif;
+ }
+ .MID-SECTION button {
+    color: white;
+    background-color: #3882f6;
+    cursor: pointer;
+    padding: 6px 25px;
+    border-radius: 8px;
+ }
+ img {
+    max-width: 600px;
+    height: 300px; transform: rotate(90deg);
+ }
+ .RIGHT-SIDE {
+    justify-content: space-around;
+    padding-right: 65px;
+    padding-left: 0%;
+ }
+ .MID-CONTAINER {
+    display: flex;
+  justify-content: center;
+  gap: 52px;
+ }
+ .TITLE {
+   padding-top: 15px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+ }
+ .TEXT {
+    font-size: 14px;
+ color: grey;
+ font-family: 'Lumanosimo', cursive;
+font-family: 'Roboto', sans-serif;
+ }
+ .MID-CONTAINER {
+    display:flex;
+    width: 100%;
+    height: 300px;
+ }
+ .TEXT {
+    width: 125px;
+    padding: 7px;
+ }
+ .BOX {
+    width: 150px;
+    height: 150px;
+    border: SOLID #3882f6;
+    border-radius: 8px;
+    border-width: 5px;
+ }
+ .TEXT-2 {
+    font-size: 24px;
+    font-weight: bolder;
+    color:#1F2937;
+    font-family: 'Lumanosimo', cursive;
+font-family: 'Roboto', sans-serif;
+ }
+ .QUOTE {
+    align-self: flex-end;
+    padding-bottom: 100px;
+ }
+ .BOTTOM-CONTAINER {
+   display: flex;
+   justify-content: center;
+    align-items: center;
+ }
+ .FOOTER {
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 160px;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+ }
+ .BOTTOM-CONTAINER button {
+    color: white;
+    background-color: #3882f6;
+    cursor: pointer;
+    padding: 6px 25px;
+    border-radius: 8px;
+    border: SOLID#f9faf8;
+    border-width: 2px;
+    font-family: 'Lumanosimo', cursive;
+font-family: 'Roboto', sans-serif;
+ }
+ .TEXT-3 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #f9faf8;
+    font-family: 'Lumanosimo', cursive;
+font-family: 'Roboto', sans-serif;
+ }
+ .TEXT-4 {
+    font-size: 14px;
+    color: #f9faf8;
+ font-family: 'Lumanosimo', cursive;
+font-family: 'Roboto', sans-serif;
+ }
+ .BOTTOM-BOTTOM-CONTAINER {
+    background-color: #1F2937;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+ }
+ .TEXT-5 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #f9faf8;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Roboto', sans-serif;
+ }
+   
